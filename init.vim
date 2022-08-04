@@ -64,6 +64,12 @@ Plug 'SirVer/ultisnips'                             " https://github.com/sirver/
 "> Theme
 Plug 'NLKNguyen/papercolor-theme' " https://github.com/NLKNguyen/papercolor-theme
 Plug 'scrooloose/nerdtree'
+
+
+"markdwonpluginstall
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+
+
 call plug#end()
 
 "-- plug END
