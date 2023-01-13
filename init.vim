@@ -56,6 +56,19 @@ Plug 'tpope/vim-commentary'    " https://github.com/tpope/vim-commentary
 Plug 'airblade/vim-gitgutter'  " https://github.com/airblade/vim-gitgutter
 Plug 'mkitt/tabline.vim'       " https://github.com/mkitt/tabline.vim
 
+
+"Install powerline fonts
+"# clone
+"git clone https://github.com/powerline/fonts.git --depth=1
+"# install
+"cd fonts
+"./install.sh
+"# clean-up a bit
+"cd ..
+"rm -rf fonts
+
+
+
 "> Go
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' } " https://github.com/fatih/vim-go
 Plug 'neoclide/coc.nvim', {'branch': 'release'}     " https://github.com/neoclide/coc.nvim
